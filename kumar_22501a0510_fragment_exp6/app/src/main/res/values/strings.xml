@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">kumar_22501a0510_fragment_exp6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="sports_list">
+        <item>Volleyball</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Hockey</item>
+    </array>
+</resources>

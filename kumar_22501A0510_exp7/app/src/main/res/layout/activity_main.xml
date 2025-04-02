@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Student Grade Details" android:textSize="22sp" android:textColor="#FF0000" android:layout_gravity="center"/>
+    <EditText android:id="@+id/edit_roll" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Roll Number" android:inputType="number"/>
+    <EditText android:id="@+id/edit_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Name of Student"/>
+    <EditText android:id="@+id/edit_average" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Average" android:inputType="numberDecimal"/>
+    <EditText android:id="@+id/edit_grade" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Grade"/>
+    <Button android:id="@+id/btn_insert" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="INSERT" android:background="#6200EE" android:textColor="#FFFFFF"/>
+    <Button android:id="@+id/btn_delete" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="DELETE" android:background="#6200EE" android:textColor="#FFFFFF"/>
+    <Button android:id="@+id/btn_select" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="SELECT" android:background="#6200EE" android:textColor="#FFFFFF"/>
+    <Button android:id="@+id/btn_update" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#6200EE" android:text="UPDATE" android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Info will appear here"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingTop="16dp" />
+</LinearLayout>
