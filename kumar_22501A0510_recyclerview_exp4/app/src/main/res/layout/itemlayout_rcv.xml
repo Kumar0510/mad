@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgv_pic"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtv_cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgv_pic"
+        android:fontFamily="sans-serif-black"
+        android:text="Cricketer Name"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_crole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txtv_cname"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="-53dp"
+        android:layout_toRightOf="@id/imgv_pic"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
